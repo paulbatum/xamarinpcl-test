@@ -1,5 +1,5 @@
 function read(query, user, request) {
-    query.where({ completed: false });
+    query.where({ complete: false });
     request.execute();
 
 }
